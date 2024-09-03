@@ -15,15 +15,15 @@ export default defineNuxtConfig({
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }))
-      })
-    }
-    
-  ],
+      }      
+    )          
+  }
+],
   vite: {
     vue: {
       template: {
         transformAssetUrls,
       },
     },
-  }
+  },
 })
