@@ -18,11 +18,7 @@
               height="460"
               v-bind="props"
             >
-              <v-img
-                :aspect-ratio="16 / 9"
-                src="https://res.cloudinary.com/dku13l2ep/image/upload/v1725369248/Construtech/banners/b-ghg_uakwcb.png"
-                cover
-              >
+              <v-img :aspect-ratio="16 / 9" :src="n.img" cover>
                 <v-expand-transition>
                   <div
                     v-if="isHovering"
@@ -65,6 +61,7 @@ export default {
       does: [
         {
           sub: "Industry standards",
+          img: "https://res.cloudinary.com/dku13l2ep/image/upload/v1725369227/Construtech/banners/bgbanner_xp2ubr.jpg",
           type: "Steel",
           subtitle: "Steel Fabrication",
           title:
@@ -72,6 +69,7 @@ export default {
         },
         {
           sub: "Joinery",
+          img: "https://res.cloudinary.com/dku13l2ep/image/upload/v1725375474/Construtech/banners/C40dvIVWEAIrGo8_href9q.jpg",
           type: "Joinery",
           subtitle: "Custom Joinery",
           title:
@@ -79,6 +77,7 @@ export default {
         },
         {
           sub: "Industrial facilities",
+          img: "https://res.cloudinary.com/dku13l2ep/image/upload/v1725375627/Construtech/banners/pexels-reneterp-3990359_lvssci.jpg",
           type: "Work",
           subtitle: "Complete Remodeling",
           title:

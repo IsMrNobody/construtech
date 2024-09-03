@@ -20,13 +20,15 @@
               Where materials meet their balance
             </h1>
 
-            <h3 class="text-medium-emphasis text-h4">Company based in UK</h3>
+            <h3 class="text-medium-emphasis text-h4 blin">
+              Company based in UK
+            </h3>
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>
             <nuxt-link to="/gallery">
               <v-btn
-                prepend-icon="mdi-fire"
+                prepend-icon="mdi-star-four-points"
                 size="x-large"
                 text="Gallery"
                 variant="elevated"
@@ -85,7 +87,7 @@ export default {
 </script>
 
 <style>
-h3 {
+.blin {
   animation: blinker 1.5s linear infinite;
   /* color: red; */
   /* font-family: sans-serif; */
