@@ -16,7 +16,7 @@
           <v-card-text>
             <h3 class="text-medium-emphasis">Steel & Joinery</h3>
 
-            <h1 class="text-uppercase text-white text-h2 font-weight-black">
+            <h1 class="text-uppercase text-white text-h4 text-md-h3 text-lg-h2 font-weight-black" style="line-height: 1.2; word-break: break-word;">
               Where materials meet their balance
             </h1>
 
